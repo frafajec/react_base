@@ -6,7 +6,10 @@ declare module '*.jpg' {
   const value: string;
   export default value;
 }
-declare module '*.svg';
+declare module '*.svg' {
+  const value: string;
+  export default value;
+}
 declare module '*.scssm' {
   const content: any;
   export default content;

@@ -11,6 +11,9 @@
         "named-imports-order": "case-insensitive"
       }
     ],
-    "member-access": [true, "no-public"]
+    "member-access": [true, "no-public"],
+    "interface-over-type-literal": false,
+    "jsx-boolean-value": false,
+    "no-empty-interface": false
   }
 }

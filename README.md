@@ -2,8 +2,14 @@
 
 ## Hello there
 
-This is my personal page that should contain all the data needed for anything you would be interested!
-If you wish to contact me, please consider the following:
+This is my personal react base. It consists of:
+
+- ReactJS
+- Typescript
+- CSS modules
+- Native SVG support
+
+If you need me, you can reach me via:
 
 Fastest by **email**: [filip.rafajec@gmail.com](filip.rafajec@gmail.com)
 
@@ -15,8 +21,6 @@ I am web developer turning project manager. Currently I work on projects that wa
 I work with international, multi-continental team in which I also have a responsibility of maintaining sprints and solving technical difficulties.
 
 ## Run this project
-
-To run it, switch yourself to `develop` branch and pull it down. 
 
 Then run those commands to play with repo:
 
