@@ -213,19 +213,22 @@ module.exports = {
           {
             test: /\.svg$/,
             use: [
-              {
-                loader: require.resolve('babel-loader'),
-                options: {
-                  cacheDirectory: true,
-                },
-              },
+              // uncomment this if SVG & Url from svg is needed
+              // {
+              //   loader: require.resolve('babel-loader'),
+              //   options: {
+              //     cacheDirectory: true,
+              //   },
+              // },
+              // require.resolve('@svgr/webpack'),
+              // {
+              //   loader: require.resolve('file-loader'),
+              //   options: {
+              //     name: 'static/media/[name].[hash:8].[ext]',
+              //   },
+              // },
+              // outputs SVG as default export from svg
               require.resolve('@svgr/webpack'),
-              {
-                loader: require.resolve('file-loader'),
-                options: {
-                  name: 'static/media/[name].[hash:8].[ext]',
-                },
-              },
             ],
           },
           // "file" loader makes sure those assets get served by WebpackDevServer.

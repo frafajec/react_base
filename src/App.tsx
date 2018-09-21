@@ -1,7 +1,8 @@
 import * as React from 'react';
 import * as cn from 'classnames';
 
-import { ReactComponent as Logo } from './logo.svg';
+// import { ReactComponent as Logo } from './logo.svg';
+import Logo from './logo.svg';
 
 import styles from './App.scssm';
 

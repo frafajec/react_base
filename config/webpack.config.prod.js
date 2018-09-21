@@ -280,25 +280,7 @@ module.exports = {
           // import { ReactComponent as Logo } from './logo.svg'; gives you a component.
           {
             test: /\.svg$/,
-            use: [
-              {
-                loader: require.resolve('babel-loader'),
-                options: {
-                  // @remove-on-eject-begin
-                  babelrc: false,
-                  presets: [require.resolve('babel-preset-react-app')],
-                  // @remove-on-eject-end
-                  cacheDirectory: true,
-                },
-              },
-              require.resolve('svgr/webpack'),
-              {
-                loader: require.resolve('file-loader'),
-                options: {
-                  name: 'static/media/[name].[hash:8].[ext]',
-                },
-              },
-            ],
+            use: [require.resolve('@svgr/webpack')],
           },
           // "file" loader makes sure assets end up in the `build` folder.
           // When you `import` an asset, you get its filename.
